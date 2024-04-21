@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html {
+    background: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: pink;
+    background-size: cover;
+}

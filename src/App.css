@@ -1,0 +1,31 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.main{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navStyles{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2rem;
+}
+
+.navStyles:hover{
+  cursor: pointer;
+}
