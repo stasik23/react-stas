@@ -1,4 +1,6 @@
 .navStyles{
+    display: flex;
+    justify-content: space-between;
     color: black;
     font-family: 'Courier New', Courier, monospace;
     font-size: 2rem;

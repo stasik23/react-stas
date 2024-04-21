@@ -4,28 +4,28 @@ import { useState } from 'react';
 import styles from './Phone.module.css'
 import Icons from '../icons/Icons';
 
-import {
-    createBrowserRouter,
-    RouterProvider,
-  } from "react-router-dom";
+// import {
+//     createBrowserRouter,
+//     RouterProvider,
+//   } from "react-router-dom";
   
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <App/>
-    },
-    {
-      path: "/aboutus",
-      element: <AboutUs/>,
-    },
-  ]);
+//   const router = createBrowserRouter([
+//     {
+//       path: "/",
+//       element: <App/>
+//     },
+//     {
+//       path: "/aboutus",
+//       element: <AboutUs/>,
+//     },
+//   ]);
   
-  const root = ReactDOM.createRoot(document.getElementById('root'));
-  root.render(
-    <React.StrictMode>
-      <RouterProvider router={router} />
-    </React.StrictMode>
-  );
+//   const root = ReactDOM.createRoot(document.getElementById('root'));
+//   root.render(
+//     <React.StrictMode>
+//       <RouterProvider router={router} />
+//     </React.StrictMode>
+//   );
 
 const Phone = () => {
     const appRow = [ styles.app, styles.app_2_row , styles.app_3_row , styles.app_4_row]

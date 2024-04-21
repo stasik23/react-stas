@@ -9,8 +9,7 @@ body {
   justify-content: center;
   background: pink;
   background-size: cover;
-  /* height: 100vh;
-  width: 100vh; */
+  height: 100vh;
 } 
 
 code {
